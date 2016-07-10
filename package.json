@@ -1,0 +1,21 @@
+{
+  "name": "bem-tools-relations",
+  "version": "0.1.0",
+  "description": "Tool for find block relations",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint . && jscs ."
+  },
+  "keywords": [
+    "bem",
+    "deps",
+    "relations",
+    "bem-tools"
+  ],
+  "author": "Ilya Kashlakov <i.kashlakov@yandex.ru>",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "jscs": "^3.0.6",
+    "jshint": "^2.9.2"
+  }
+}

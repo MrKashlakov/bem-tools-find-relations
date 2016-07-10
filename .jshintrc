@@ -1,0 +1,32 @@
+{
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "freeze": true,
+  "latedef": "nofunc",
+  "newcap": true,
+  "noarg": true,
+  "nonew": true,
+  "undef": true,
+  "unused": "vars",
+  "strict": true,
+  "maxparams": 4,
+  "node": true,
+  "overrides": {
+    "test/**": {
+      "mocha": true
+    }
+  },
+  "globals": {
+    "describe": false,
+    "xdescribe": false,
+    "before": false,
+    "after": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "it": false,
+    "xit": false,
+    "assert": false,
+    "sinon": false
+  }
+}
