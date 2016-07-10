@@ -1,5 +1,5 @@
 {
-  "name": "bem-tools-relations",
+  "name": "bem-tools-find-relations",
   "version": "0.1.0",
   "description": "Tool for find block relations",
   "main": "index.js",

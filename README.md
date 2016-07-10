@@ -1,4 +1,4 @@
-# bem-tools-relations #
+# bem-tools-find-relations #
 Bem tools plugin for find BEM entity relations
 
 
@@ -13,7 +13,7 @@ Bem tools plugin for find BEM entity relations
 
 Инструмент устанавливается как обычная npm-зависимость:
 ```
-npm install bem-tools-relations
+npm install bem-tools-find-relations
 ```
 
 ## Использование ##
@@ -21,14 +21,14 @@ npm install bem-tools-relations
 ### Использование с помощью CLI-интерфейса ###
 
 ```
-./bin/bem relations --help
+./bin/bem find-relations --help
 Tools to work with files written using the BEM methodology.
 See https://bem.info for more info.
 
 BEM Tool for find BEM entity relations
 
 Usage:
-    bem relations [OPTIONS] [ARGS]
+    bem find-relations [OPTIONS] [ARGS]
 
 Commands:
     completion : Shell completion
@@ -51,13 +51,13 @@ Options:
 
 ### Использование инструмента с помощью JS API ###
 
-`bem-tools-relations` так же может быть использован программно. Для этого нужно подключить зависимость
-`bem-tools-relations` в модуль вашего проекта и передать параметры для поиска зависимостей БЭМ сущьности.
+`bem-tools-find-relations` так же может быть использован программно. Для этого нужно подключить зависимость
+`bem-tools-find-relations` в модуль вашего проекта и передать параметры для поиска зависимостей БЭМ сущьности.
 
 ```
-var bemToolsRelations = require('bem-tools-relations');
+var bemToolsFindRelations = require('bem-tools-find-relations');
 
-bemToolsRelations({
+bemToolsFindRelations({
     levels: ['level1'],
     blocks: ['block1'],
     elements: ['elem1'],
