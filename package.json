@@ -4,18 +4,31 @@
   "description": "Tool for find block relations",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint . && jscs ."
+    "lint": "jshint . && jscs .",
+    "test": "./node_modules/.bin/_mocha"
   },
   "keywords": [
     "bem",
     "deps",
-    "relations",
+    "find-relations",
     "bem-tools"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrKashlakov/bem-tools-find-relations"
+  },
   "author": "Ilya Kashlakov <i.kashlakov@yandex.ru>",
   "license": "MPL-2.0",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "javascript-stringify": "^1.4.0",
     "jscs": "^3.0.6",
-    "jshint": "^2.9.2"
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3",
+    "mock-fs": "^3.11.0",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "@bem/deps": "^0.1.1"
   }
 }

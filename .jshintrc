@@ -12,11 +12,6 @@
   "strict": true,
   "maxparams": 4,
   "node": true,
-  "overrides": {
-    "test/**": {
-      "mocha": true
-    }
-  },
   "globals": {
     "describe": false,
     "xdescribe": false,
